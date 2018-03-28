@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<head>
+	<title>Hungry Birds</title> 
+<link rel="icon" href="http://wally.humber.ca/~N01119535/Hungry%20Birds.jpg">
+</head>
+<style>
+
+header {
+	background-color:#cc3300;
+	text-align:cente;
+	color:white;
+	position:fixed;
+	padding:0px;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:130px;
+	z-index:1;
+}
+#title {
+	color:white;
+	text-align:left;
+	line-height:15px;
+	padding:5px;
+	float:left;
+	position:relative;
+}
+nav {
+	line-height:20px;
+	background-color:#ff9966;
+	color:white;
+	text-align:center;
+	padding:5px;
+	position:relative;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+a:link, a:visited {
+	display:block;
+	width:150px;
+	font-weight:bold;
+	color:#990000;
+	background-color:#ff9966;
+	text-align:center;
+	padding:20px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:20px;
+}
+a:hover {
+	background-color:#ffcc99;
+	
+}
+li {
+	display:inline;
+	float:right;
+}
+#logo {
+	padding:5px;	
+	float:left;
+	position:relative;
+	bottom:20px;
+}
+#topbar {
+	padding:3px;
+	position:relative;
+	bottom:10px;
+}
+section {
+	padding-top:70px;
+	position:static;
+}
+#home {
+	position:relative;
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	width:100%;
+	left:0px;
+	top:20px;
+	padding-top:50px;
+}
+#picks {
+	transform:rotate(0deg);
+	position:static;
+	top:0px;
+	margin:0px;
+}
+#menu {
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	color:#003366;
+}
+
+#gallery {
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	color:#003366;
+}
+#employment {
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	color:#003366;
+}
+#guestfeedback {
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	color:#003366;
+}
+#contactinfo {
+	float:left;
+	background-color:#ff9966;
+	width:99.4%;
+}
+#emailsubmit {
+	float:right;
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	width:100%;
+}
+#contactinfo {
+	border-style:outset;
+	border-width:5px;
+	border-color:#cc3300;
+	background-color:#ff9966;
+}
+footer {
+	align:center;
+	background-color:#cc3300;
+	color:white;
+	clear:both;
+	text-align:center;
+	padding:5px;
+}
+</style>
+<header>
+	<div id="topbar">
+		<div class="class">
+			<div class="s-12 m=6 1-6">
+			<p>
+			<font face="trebuchet ms">CONTACT US: hungrybirds@hungrybirds.com</font> 
+			<font face="trebuchet ms"><strong></font></strong>
+			</p>
+			</div>
+			<div class="line">
+	</div>
+<nav>	
+	<div id="title">
+			</div>
+			<div id="logo" align="left">
+			<img src="https://mir-s3-cdn-cf.behance.net/projects/404/21497943.546fa5a660a47.jpg" style="width:200px;height:100px;">
+			</div>
+
+	<div class="top-nav">
+		<ul>
+			<li><a href="#guestfeedback">Guest Feedback</a></li>
+			<li><a href="employment.html">Employment</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="index.html">Home</a></li>
+			
+		</ul>
+	</div>
+</nav>
+</header>
+<section>
+
+<div id="home">
+	<div id="picks" align="center">
+<script language="JavaScript">
+var i = 0;
+var path = new Array();
+ 
+// LIST OF IMAGES
+path[0] = "https://www.harvesters.org/Harvesters.org/media/assets-uploaded/Carousel%20photos/RFH_WebCarousel_1.jpg?ext=.jpg";
+path[1] = "http://www.stickergenius.com/wp-content/uploads/2013/10/store_hours_circle_sheet.jpg";
+path[2] = "http://bostoniapublichouse.com/wp-content/uploads/2014/02/brunch-web-slider-2v2.jpg";
+path[3] = "http://www.victorybeer.com/wp-content/uploads/2014/12/Unknown1.jpeg";
+
+
+
+function swapImage()
+{
+   document.slide.src = path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",5000);
+}
+window.onload=swapImage;
+</script>
+<img height="600" name="slide" src="image_1.gif" width="1500"/>
+	<!--<img src="images/picks.JPG" style="width:600px;height:500px;">-->
+	</div>
+
+
+</div><br><br>	
+
+<div id="guestfeedback" align="center">
+	<h2><font face="trebuchet ms">TELL US WHAT YOU THINK!</font></h3><br>
+	<div id="emailsubmit">
+	<form action="mailto:simranjitksaini@gmail.com" method="post" enctype"text/plain">
+	Name:
+	<input type="text" name="name" value="" required><br><br>
+	E-mail:
+	<input type="email" name="email" value="" required>
+	<p>Message: <textarea name="text" id="text" value="" style="width:160px;height=:150px;scrollbar-base-color:lightgray;" align="right" rows="5"></textarea></p>
+	<br><br>
+	<input type="submit" value="Submit"><br><br>
+	</form>
+	</div>
+	<div id="contactinfo">
+	<p><strong>Hungry Birds</strong></p>
+	<p><font face="trebuchet ms">Contact us at: hungrybirds@hungrybirds.com</font><p>
+	<img src="https://mir-s3-cdn-cf.behance.net/projects/404/21497943.546fa5a660a47.jpg" style="width:80px;height90px;">
+	</div>
+
+
+<object width="0" height="0">
+<param name="music"
+value="http://www.youtube.com/v/42dVcSGdSgw?version=3&loop=1&autoplay=1&playlist=42dVcSGdSgw"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/42dVcSGdSgw?version=3&loop=1&autoplay=1&playlist=42dVcSGdSgw"
+type="application/x-shockwave-flash"
+allowscriptaccess="always"
+width="0" height="0"></embed>
+</object>
+
+</div>
+</section>
+
+
+
+<footer>
+<div id="footer">
+<small><i>HungryBirds Copyright &#169 2015
+</div>
+</footer>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>
+	<title>Hungry Birds Employment</title>
+<link rel="icon" href="http://wally.humber.ca/~N01119535/Hungry%20Birds.jpg">
+</head>
+<style>
+header {
+	background-color:#cc3300;
+	text-align:cente;
+	color:white;
+	position:fixed;
+	padding:0px;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:130px;
+	z-index:1;
+}
+#title {
+	color:white;
+	text-align:left;
+	line-height:15px;
+	padding:5px;
+	float:left;
+	position:relative;
+}
+nav {
+	line-height:20px;
+	background-color:#ff9966;
+	color:white;
+	text-align:center;
+	padding:5px;
+	position:relative;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+a:link, a:visited {
+	display:block;
+	width:150px;
+	font-weight:bold;
+	color:#990000;
+	background-color:#ff9966;
+	text-align:center;
+	padding:20px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:20px;
+}
+a:hover {
+	background-color:#ffcc99;
+	
+}
+li {
+	display:inline;
+	float:right;
+}
+#logo {
+	padding:5px;	
+	float:left;
+	position:relative;
+	bottom:20px;
+}
+#topbar {
+	padding:3px;
+	position:relative;
+	bottom:10px;
+}
+section {
+	padding-top:70px;
+	position:static;
+}
+#home {
+	position:relative;
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	width:100%;
+	left:0px;
+	top:20px;
+	padding-top:50px;
+}
+#picks {
+	transform:rotate(0deg);
+	position:static;
+	top:0px;
+	margin:0px;
+}
+#menu {
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	color:#003366;
+}
+#workleft {
+	border-style:outset;
+	border-width:5px;
+	border-color:navy;
+	width:15%;
+	height:20%;
+	position:relative;
+	right:500px;
+}
+#workright {
+	border-style:outset;
+	border-width:5px;
+	border-color:navy;
+	width:15%;
+	height:20%;
+	position:relative;
+	bottom:315px;
+	left:500px;
+}
+#gallery {
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	color:#003366;
+}
+#employment {
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	color:#003366;
+}
+#guestfeedback {
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	color:#003366;
+}
+#contactinfo {
+	float:left;
+	background-color:#ff9966;
+	width:99.4%;
+}
+#emailsubmit {
+	float:right;
+	background-image: url("http://abbondanzakeywest.com/brochure/img/bookBackground.jpg");
+	width:100%;
+}
+#contactinfo {
+	border-style:outset;
+	border-width:5px;
+	border-color:#cc3300;
+	background-color:#ff9966;
+}
+footer {
+	align:center;
+	background-color:#cc3300;
+	color:white;
+	clear:both;
+	text-align:center;
+	padding:5px;
+}
+</style>
+<header>
+	<div id="topbar">
+		<div class="class">
+			<div class="s-12 m=6 1-6">
+			<p>
+			<font face="trebuchet ms">CONTACT US:</font> 
+			<font face="trebuchet ms"><strong></font></strong>
+			</p>
+			</div>
+			<div class="line">
+	</div>
+<nav>	
+	<div id="title">
+			</div>
+			<div id="logo" align="left">
+			<img src="https://mir-s3-cdn-cf.behance.net/projects/404/21497943.546fa5a660a47.jpg" style="width:200px;height:100px;">
+			</div>
+
+	<div class="top-nav">
+		<ul>
+			<li><a href="index.html""#guestfeedback">Guest Feedback</a></li>
+			<li><a href="employment.html">Employment</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="index.html">Home</a></li>
+			
+		</ul>
+	</div>
+</nav>
+</header>
+<section>
+<div id="home">
+	<div id="picks" align="center">
+</div><br><br>
+<div id="employment" align="center">
+	<form action="mailto:ceznicole@outlook.com" id="EmploymentApplication100" method="post" onsubmit="return ValidateForm(this);">
+	<script type="text/javascript">
+	function ValidateForm(frm) {
+	if (frm.First_Name.value == "") { alert('First name is required.'); frm.First_Name.focus(); return false; }
+	if (frm.Last_Name.value == "") { alert('Last name is required.'); frm.Last_Name.focus(); return false; }
+	if (frm.Email_Address.value == "") { alert('Email address is required.'); frm.Email_Address.focus(); return false; }
+	if (frm.Email_Address.value.indexOf("@") < 1 || frm.Email_Address.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.Email_Address.focus(); return false; }
+	if (frm.Position.value == "") { alert('Position is required.'); frm.Position.focus(); return false; }
+	if (frm.Phone.value == "") { alert('Phone is required.'); frm.Phone.focus(); return false; }
+	return true; }
+	</script>
+	<table border="0" cellpadding="5" cellspacing="0">
+	<tr> <td style="width: 50%">
+	<label for="First_Name"><b>First name *</b></label><br />
+	<input name="First_Name" type="text" maxlength="50" style="width: 260px" />
+	</td> <td style="width: 50%">
+	<label for="Last_Name"><b>Last name *</b></label><br />
+	<input name="Last_Name" type="text" maxlength="50" style="width: 260px" />
+	</td> </tr> <tr> <td colspan="2">
+	<label for="Email_Address"><b>Email *</b></label><br />
+	<input name="Email_Address" type="text" maxlength="100" style="width: 535px" />
+	</td> </tr> <tr> <td colspan="2">
+	<label for="Portfolio"><b>Portfolio website</b></label><br />
+	<input name="Portfolio" type="text" maxlength="255" value="http://" style="width: 535px" />
+	</td> </tr> <tr> <td colspan="2">
+	<label for="Position"><b>Position you are applying for *</b></label><br />
+	<input name="Position" type="text" maxlength="100" style="width: 535px" />
+	</td> </tr> <tr> <td>
+	<label for="Salary"><b>Salary requirements</b></label><br /> <input name="Salary" type="text" maxlength="50" style="width: 260px" /> </td> <td>
+	<b>When can you start?</b><br /><input type="date" name="startdate">
+	</td> </tr> <tr> <td>
+	<label for="Phone"><b>Phone *</b></label><br />
+	<input name="Phone" type="text" maxlength="50" style="width: 260px" />
+	</td> <td>
+	<label for="Fax"><b>Fax</b></label><br />
+	<input name="Fax" type="text" maxlength="50" style="width: 260px" />
+	</td> </tr> <tr> <td colspan="2">
+	<label for="Relocate"><b>Are you willing to relocate?</b></label><br />
+	<input name="Relocate" type="radio" value="Yes" checked="checked" /> Yes      
+	<input name="Relocate" type="radio" value="No" /> No      
+	<input name="Relocate" type="radio" value="NotSure" /> Not sure
+	</td> </tr> <tr> <td colspan="2">
+	<label for="Organization"><b>Last company you worked for</b></label><br />
+	<input name="Organization" type="text" maxlength="100" style="width: 535px" />
+	</td> </tr> <tr> <td colspan="2">
+	<label for="Reference"><b>Reference / Comments / Questions</b></label><br />
+	<textarea name="Reference" rows="7" cols="40" style="width: 535px"></textarea>
+	</td> </tr> <tr> <td colspan="2" style="text-align: center;">
+	<input name="skip_submit" type="submit" value="Send Application" />
+	<br><br>	
+	</td> </tr>
+	</table>
+	</form>
+	</div>
+</div>
+<br>
+<div id="guestfeedback" align="center">	
+	<div id="emailsubmit">
+	</div>
+	<div id="contactinfo">
+	<p><strong>Hungry Birds</strong></p>
+	<p><font face="trebuchet ms">Contact us at: hungrybirds@hungrybirds.com</font><p>
+	<img src="https://mir-s3-cdn-cf.behance.net/projects/404/21497943.546fa5a660a47.jpg" style="width:80px;height90px;">
+	</div>
+
+
+<object width="0" height="0">
+<param name="music"
+value="http://www.youtube.com/v/42dVcSGdSgw?version=3&loop=1&autoplay=1&playlist=42dVcSGdSgw"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/42dVcSGdSgw?version=3&loop=1&autoplay=1&playlist=42dVcSGdSgw"
+type="application/x-shockwave-flash"
+allowscriptaccess="always"
+width="0" height="0"></embed>
+</object>
+
+</div>
+</section>
+
+
+<footer>
+<div id="footer">
+<small><i>HungryBirds Copyright &#169 2015
+</div>
+</footer>
